@@ -1,0 +1,9 @@
+kafka-connect-couchbase-3.4.5.zip
+kafka-connect-couchbase-3.4.5/LICENSE
+kafka-connect-couchbase-3.4.5/README.adoc
+kafka-connect-couchbase-3.4.5/config/*
+kafka-connect-couchbase-3.4.5/custom-extensions-1.0-SNAPSHOT.jar
+kafka-connect-couchbase-3.4.5/kafka-connect-couchbase-3.4.5.jar
+kafka_2.12-2.3.0.tar
+kafka_2.12-2.3.0/*
+logs/*
