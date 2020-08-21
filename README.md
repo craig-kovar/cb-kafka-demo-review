@@ -34,9 +34,10 @@ kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 
 ```
 
 We will create the following topics for use in this POC
-	inbound
-	experiment
-	full
+
+* inbound
+* experiment
+* full
 
 We can now verify that our topic was created by running the following command
 
@@ -56,10 +57,11 @@ mvn compile exec:java -Dexec.args="1 10 justins_sweet_stat test"
 ```
 
 The arguments are as follows:
-	Starting ID
-	Range
-	Stat Name
-	Kafka TOPIC
+
+* Starting ID
+* Range
+* Stat Name
+* Kafka TOPIC
 
 In this case,  the command would generate messages for I-1 through I-10,  setting a statistic called "justins_sweet_stat" and publishing these messages to the topic "test"
 
